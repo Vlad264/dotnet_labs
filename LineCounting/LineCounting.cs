@@ -46,8 +46,9 @@ namespace LineCounting
             using (StreamReader reader = file.OpenText())
             {
                 while ((str = reader.ReadLine()) != null)
-                {
-                    var trim = str.Trim();
+                {  /*  test
+                
+                 */               var trim = str.Trim();
                     if (trim == "" || trim.StartsWith(singleComment)) {
                         continue;
                     }
@@ -58,15 +59,16 @@ namespace LineCounting
                             ++count;
                         }
                         while ((str = reader.ReadLine()) != null && !str.Trim().Contains(multiCommentEnd));
-                        if (str.Trim().IndexOf(multiCommentEnd) != 0)
+                        if (!str.Trim().EndsWith(multiCommentEnd))
                         {
                             ++count;
                         }
                         continue;
                     }
                     ++count;
-                }
+                }//hhhh
             }
+            ///hhhh
             Console.WriteLine("In file {0}: {1} lines", file.Name, count);
             result += count;
         }
