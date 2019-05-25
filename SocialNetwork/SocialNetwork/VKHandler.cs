@@ -13,7 +13,7 @@ namespace SocialNetwork
         private readonly VkApi vk;
         private VkCollection<User> friends;
 
-        VKHandler(string login, string password)
+        public VKHandler(string login, string password)
         {
             var service = new ServiceCollection();
             service.AddAudioBypass();
