@@ -5,6 +5,9 @@
     <e p="$USER_HOME$/.Rider2019.1/system/resharper-host/local/Transient/ReSharperHost/v191/SolutionCaches/_EffectiveEmployee.507098923.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="EffectiveEmployee" t="IncludeRecursive">
+        <e p="Controllers" t="Include">
+          <e p="MainController.cs" t="Include" />
+        </e>
         <e p="EffectiveEmployee.csproj" t="IncludeRecursive" />
         <e p="Models" t="Include">
           <e p="DataContext.cs" t="Include" />
@@ -16,6 +19,13 @@
           <e p="launchSettings.json" t="Include" />
         </e>
         <e p="Startup.cs" t="Include" />
+        <e p="Views" t="Include">
+          <e p="Main" t="Include">
+            <e p="Employee.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+            <e p="Project.cshtml" t="Include" />
+          </e>
+        </e>
         <e p="app.config" t="Include" />
         <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />
