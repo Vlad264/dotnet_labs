@@ -6,6 +6,11 @@
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="EffectiveEmployee" t="IncludeRecursive">
         <e p="EffectiveEmployee.csproj" t="IncludeRecursive" />
+        <e p="Models" t="Include">
+          <e p="DataContext.cs" t="Include" />
+          <e p="Employee.cs" t="Include" />
+          <e p="Project.cs" t="Include" />
+        </e>
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="launchSettings.json" t="Include" />
