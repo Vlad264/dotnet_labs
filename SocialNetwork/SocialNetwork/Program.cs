@@ -61,6 +61,7 @@ namespace SocialNetwork
                         
                         break;
                 }
+                Console.WriteLine();
             }
         }
 

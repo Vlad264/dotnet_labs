@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5dfb7a35-2c25-4c30-b9c5-72ed9c8ce088" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/SocialNetwork/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SocialNetwork/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SocialNetwork/VKHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SocialNetwork/VKHandler.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,37 +12,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SocialNetwork/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
+            <state relative-caret-position="439">
+              <caret line="63" column="34" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
               <folding>
-                <marker date="1558800076668" expanded="true" signature="6:55" ph="..." />
-                <marker date="1558800076668" expanded="true" signature="80:3031" ph="{...}" />
-                <marker date="1558800076668" expanded="true" signature="100:3029" ph="{...}" />
-                <marker date="1558800076668" expanded="true" signature="146:770" ph="{...}" />
-                <marker date="1558800076668" expanded="true" signature="357:487" ph="{...}" />
-                <marker date="1558800076668" expanded="true" signature="534:634" ph="{...}" />
-                <marker date="1558800076668" expanded="true" signature="666:760" ph="{...}" />
-                <marker date="1558800076668" expanded="true" signature="824:2063" ph="{...}" />
-                <marker date="1558800076668" expanded="true" signature="859:2053" ph="{...}" />
-                <marker date="1558800076668" expanded="true" signature="1172:2039" ph="{...}" />
-                <marker date="1558800076668" expanded="true" signature="1515:1811" ph="{...}" />
-                <marker date="1558800076668" expanded="true" signature="1855:1965" ph="{...}" />
-                <marker date="1558800076668" expanded="true" signature="2109:3023" ph="{...}" />
-                <marker date="1558800076668" expanded="true" signature="2216:2946" ph="{...}" />
-                <marker date="1558800076668" expanded="true" signature="2312:2932" ph="{...}" />
-                <marker date="1558800076668" expanded="true" signature="2601:2710" ph="{...}" />
+                <marker date="1558800762982" expanded="true" signature="6:55" ph="..." />
+                <marker date="1558800762982" expanded="true" signature="80:3068" ph="{...}" />
+                <marker date="1558800762982" expanded="true" signature="100:3066" ph="{...}" />
+                <marker date="1558800762982" expanded="true" signature="146:770" ph="{...}" />
+                <marker date="1558800762982" expanded="true" signature="357:487" ph="{...}" />
+                <marker date="1558800762982" expanded="true" signature="534:634" ph="{...}" />
+                <marker date="1558800762982" expanded="true" signature="666:760" ph="{...}" />
+                <marker date="1558800762982" expanded="true" signature="824:2100" ph="{...}" />
+                <marker date="1558800762982" expanded="true" signature="859:2090" ph="{...}" />
+                <marker date="1558800762982" expanded="true" signature="1172:2039" ph="{...}" />
+                <marker date="1558800762982" expanded="true" signature="1515:1811" ph="{...}" />
+                <marker date="1558800762982" expanded="true" signature="1855:1965" ph="{...}" />
+                <marker date="1558800762982" expanded="true" signature="2146:3060" ph="{...}" />
+                <marker date="1558800762982" expanded="true" signature="2253:2983" ph="{...}" />
+                <marker date="1558800762982" expanded="true" signature="2349:2969" ph="{...}" />
+                <marker date="1558800762982" expanded="true" signature="2638:2747" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SocialNetwork/VKHandler.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
+            <state relative-caret-position="-56">
               <caret line="24" column="34" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="34" />
               <folding>
                 <marker date="1558800463115" expanded="true" signature="6:234" ph="..." />
@@ -74,8 +73,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/SocialNetwork/Program.cs" />
         <option value="$PROJECT_DIR$/SocialNetwork/VKHandler.cs" />
+        <option value="$PROJECT_DIR$/SocialNetwork/Program.cs" />
       </list>
     </option>
   </component>
@@ -160,12 +159,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558794470657</updated>
-      <workItem from="1558794472342" duration="5690000" />
+      <workItem from="1558794472342" duration="5990000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5690000" />
+    <option name="totallyTimeSpent" value="5990000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -181,7 +180,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2497332" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2497332" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="NuGet" weight="0.32937366" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -194,7 +193,7 @@
       <window_info anchor="bottom" id="Build" weight="0.32937366" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32937366" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32937366" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -223,34 +222,9 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SocialNetwork/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
-          <folding>
-            <marker date="1558800076668" expanded="true" signature="6:55" ph="..." />
-            <marker date="1558800076668" expanded="true" signature="80:3031" ph="{...}" />
-            <marker date="1558800076668" expanded="true" signature="100:3029" ph="{...}" />
-            <marker date="1558800076668" expanded="true" signature="146:770" ph="{...}" />
-            <marker date="1558800076668" expanded="true" signature="357:487" ph="{...}" />
-            <marker date="1558800076668" expanded="true" signature="534:634" ph="{...}" />
-            <marker date="1558800076668" expanded="true" signature="666:760" ph="{...}" />
-            <marker date="1558800076668" expanded="true" signature="824:2063" ph="{...}" />
-            <marker date="1558800076668" expanded="true" signature="859:2053" ph="{...}" />
-            <marker date="1558800076668" expanded="true" signature="1172:2039" ph="{...}" />
-            <marker date="1558800076668" expanded="true" signature="1515:1811" ph="{...}" />
-            <marker date="1558800076668" expanded="true" signature="1855:1965" ph="{...}" />
-            <marker date="1558800076668" expanded="true" signature="2109:3023" ph="{...}" />
-            <marker date="1558800076668" expanded="true" signature="2216:2946" ph="{...}" />
-            <marker date="1558800076668" expanded="true" signature="2312:2932" ph="{...}" />
-            <marker date="1558800076668" expanded="true" signature="2601:2710" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SocialNetwork/VKHandler.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
+        <state relative-caret-position="-56">
           <caret line="24" column="34" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="34" />
           <folding>
             <marker date="1558800463115" expanded="true" signature="6:234" ph="..." />
@@ -264,6 +238,31 @@
             <marker date="1558800463115" expanded="true" signature="1545:1641" ph="{...}" />
             <marker date="1558800463115" expanded="true" signature="1956:2215" ph="{...}" />
             <marker date="1558800463115" expanded="true" signature="2034:2159" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SocialNetwork/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="63" column="34" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
+          <folding>
+            <marker date="1558800762982" expanded="true" signature="6:55" ph="..." />
+            <marker date="1558800762982" expanded="true" signature="80:3068" ph="{...}" />
+            <marker date="1558800762982" expanded="true" signature="100:3066" ph="{...}" />
+            <marker date="1558800762982" expanded="true" signature="146:770" ph="{...}" />
+            <marker date="1558800762982" expanded="true" signature="357:487" ph="{...}" />
+            <marker date="1558800762982" expanded="true" signature="534:634" ph="{...}" />
+            <marker date="1558800762982" expanded="true" signature="666:760" ph="{...}" />
+            <marker date="1558800762982" expanded="true" signature="824:2100" ph="{...}" />
+            <marker date="1558800762982" expanded="true" signature="859:2090" ph="{...}" />
+            <marker date="1558800762982" expanded="true" signature="1172:2039" ph="{...}" />
+            <marker date="1558800762982" expanded="true" signature="1515:1811" ph="{...}" />
+            <marker date="1558800762982" expanded="true" signature="1855:1965" ph="{...}" />
+            <marker date="1558800762982" expanded="true" signature="2146:3060" ph="{...}" />
+            <marker date="1558800762982" expanded="true" signature="2253:2983" ph="{...}" />
+            <marker date="1558800762982" expanded="true" signature="2349:2969" ph="{...}" />
+            <marker date="1558800762982" expanded="true" signature="2638:2747" ph="{...}" />
           </folding>
         </state>
       </provider>
