@@ -1,0 +1,92 @@
+h3 {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+h5 {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.main_table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.main_table td, .main_table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.main_table tr:nth-child(even){background-color: #f2f2f2;}
+
+.main_table tr:hover {background-color: #ddd;}
+
+.main_table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.main_button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.form {
+    margin-bottom: 10px;
+    width: 70%;
+    display: inline-block;
+}
+
+.input_group {
+    position: relative;
+    display: block;
+}
+
+.input_field {
+    position: relative;
+    display: block;
+    padding-bottom: 7px;
+}
+
+.input_field > * {
+    padding-bottom: 5px;
+}
+
+dr {
+    position: relative;
+    display: inline-block;
+}
+
+.error {
+    color: red;
+    display: block;
+}
+
+a {
+    color: #4CAF50;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}

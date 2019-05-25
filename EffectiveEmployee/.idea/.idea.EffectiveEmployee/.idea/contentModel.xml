@@ -37,6 +37,11 @@
             </e>
           </e>
         </e>
+        <e p="wwwroot" t="Include">
+          <e p="css" t="Include">
+            <e p="Site.css" t="Include" />
+          </e>
+        </e>
       </e>
       <e p="EffectiveEmployee.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />

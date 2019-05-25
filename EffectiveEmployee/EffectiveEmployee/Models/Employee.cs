@@ -17,6 +17,8 @@ namespace EffectiveEmployee.Models
         
         public string Patronymic { get; set; }
         
+        public string City { get; set; }
+        
         public ICollection<Project> Projects { get; set; }
     }
 }

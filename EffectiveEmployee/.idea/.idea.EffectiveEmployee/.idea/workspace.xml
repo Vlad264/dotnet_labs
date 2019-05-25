@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad1c7e3c-7de0-45c5-9493-d59e3512d4ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/EffectiveEmployee/Controllers/MainController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EffectiveEmployee/Views/Main/Employee.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EffectiveEmployee/Views/Main/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EffectiveEmployee/Views/Main/Project.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EffectiveEmployee/wwwroot/css/Site.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.EffectiveEmployee/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EffectiveEmployee/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.EffectiveEmployee/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EffectiveEmployee/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EffectiveEmployee/EffectiveEmployee.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/EffectiveEmployee/EffectiveEmployee.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EffectiveEmployee/Models/Employee.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EffectiveEmployee/Models/Employee.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EffectiveEmployee/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EffectiveEmployee/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EffectiveEmployee/Views/Main/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/EffectiveEmployee/Views/Main/Index.cshtml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,13 +22,29 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EffectiveEmployee/Models/Project.cs">
+        <entry file="file://$PROJECT_DIR$/EffectiveEmployee/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+            <state relative-caret-position="225">
+              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
               <folding>
-                <marker date="1558779395843" expanded="true" signature="34:320" ph="{...}" />
-                <marker date="1558779395843" expanded="true" signature="61:318" ph="{...}" />
+                <marker date="1558369585009" expanded="false" signature="6:255" ph="..." />
+                <marker date="1558369585009" expanded="true" signature="284:611" ph="{...}" />
+                <marker date="1558369585009" expanded="true" signature="311:609" ph="{...}" />
+                <marker date="1558369585009" expanded="true" signature="364:438" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EffectiveEmployee/Models/Employee.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+              <folding>
+                <marker date="1558788972644" expanded="true" signature="69:526" ph="{...}" />
+                <marker date="1558788972644" expanded="true" signature="97:524" ph="{...}" />
+                <marker date="1558788972644" expanded="true" signature="129:196" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -37,30 +53,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EffectiveEmployee/Models/DataContext.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
+            <state relative-caret-position="210">
               <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="1" />
               <folding>
                 <marker date="1558779493357" expanded="true" signature="72:336" ph="{...}" />
                 <marker date="1558779493357" expanded="true" signature="115:334" ph="{...}" />
                 <marker date="1558779493357" expanded="true" signature="308:328" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EffectiveEmployee/Startup.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-              <folding>
-                <marker date="1558369585053" expanded="true" signature="6:249" ph="..." />
-                <marker date="1558369585053" expanded="true" signature="278:1049" ph="{...}" />
-                <marker date="1558369585053" expanded="true" signature="305:1047" ph="{...}" />
-                <marker date="1558369585053" expanded="true" signature="320:535" ph="/* This method gets called by the runtime. Use this method to add services to the container. ... */" />
-                <marker date="1558369585053" expanded="true" signature="602:622" ph="{...}" />
-                <marker date="1558369585053" expanded="true" signature="810:1041" ph="{...}" />
-                <marker date="1558369585053" expanded="true" signature="857:934" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -87,29 +85,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EffectiveEmployee/Views/Main/Project.cshtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="39" selection-start-column="7" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EffectiveEmployee/Views/Main/Employee.cshtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/EffectiveEmployee/Views/Main/Index.cshtml">
+        <entry file="file://$PROJECT_DIR$/EffectiveEmployee/Startup.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="73" selection-start-column="73" selection-end-column="73" />
+            <state relative-caret-position="349">
+              <caret line="30" column="33" lean-forward="true" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="66" />
+              <folding>
+                <marker date="1558789464258" expanded="true" signature="6:360" ph="..." />
+                <marker date="1558789464258" expanded="true" signature="389:1777" ph="{...}" />
+                <marker date="1558789464258" expanded="true" signature="416:1775" ph="{...}" />
+                <marker date="1558789464258" expanded="true" signature="475:538" ph="{...}" />
+                <marker date="1558789464258" expanded="true" signature="611:826" ph="/* This method gets called by the runtime. Use this method to add services to the container. ... */" />
+                <marker date="1558789464258" expanded="true" signature="893:1217" ph="{...}" />
+                <marker date="1558789464258" expanded="true" signature="1005:1205" ph="{...}" />
+                <marker date="1558789464258" expanded="true" signature="1405:1769" ph="{...}" />
+                <marker date="1558789464258" expanded="true" signature="1452:1529" ph="{...}" />
+                <marker date="1558789464258" expanded="true" signature="1576:1722" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -125,10 +117,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EffectiveEmployee/Views/Main/Index.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EffectiveEmployee/appsettings.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EffectiveEmployee/wwwroot/css/Site.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="844">
+              <caret line="92" selection-start-line="92" selection-end-line="92" />
             </state>
           </provider>
         </entry>
@@ -141,26 +151,30 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/EffectiveEmployee/Views/Main/Employee.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/EffectiveEmployee/Views/Main/Project.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/EffectiveEmployee/Startup.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/EffectiveEmployee/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/EffectiveEmployee/app.config" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/EffectiveEmployee/Models/Employee.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/EffectiveEmployee/Models/Project.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/EffectiveEmployee/Models/DataContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/EffectiveEmployee/Controllers/MainController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/127E718A-C42E-4542-A71B-54CEC3EF156B/18/1e86c897/WebHostBuilder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EffectiveEmployee/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EffectiveEmployee/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EffectiveEmployee/app.config" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/EffectiveEmployee/Views/Main/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/EffectiveEmployee/Program.cs" />
-        <option value="$PROJECT_DIR$/EffectiveEmployee/Models/Employee.cs" />
         <option value="$PROJECT_DIR$/EffectiveEmployee/Models/Project.cs" />
         <option value="$PROJECT_DIR$/EffectiveEmployee/Models/DataContext.cs" />
         <option value="$PROJECT_DIR$/EffectiveEmployee/Pages/Main/Index.cshtml" />
         <option value="$PROJECT_DIR$/EffectiveEmployee/Views/Main/Employee.cshtml" />
         <option value="$PROJECT_DIR$/EffectiveEmployee/Views/Main/Project.cshtml" />
         <option value="$PROJECT_DIR$/EffectiveEmployee/Controllers/MainController.cs" />
+        <option value="$PROJECT_DIR$/EffectiveEmployee/wwwroot/css/Site.css" />
+        <option value="$PROJECT_DIR$/EffectiveEmployee/Models/Employee.cs" />
+        <option value="$PROJECT_DIR$/EffectiveEmployee/Views/Main/Index.cshtml" />
+        <option value="$PROJECT_DIR$/EffectiveEmployee/Startup.cs" />
       </list>
     </option>
   </component>
@@ -195,25 +209,6 @@
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="EffectiveEmployee" type="24d0babc:SolutionExplorerModelNode" />
               <item name="EffectiveEmployee" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="EffectiveEmployee" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="EffectiveEmployee" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Controllers" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="EffectiveEmployee" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="EffectiveEmployee" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Views" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="EffectiveEmployee" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="EffectiveEmployee" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Views" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Main" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
@@ -291,12 +286,12 @@
       <updated>1558369568731</updated>
       <workItem from="1558369575193" duration="2394000" />
       <workItem from="1558777806972" duration="3578000" />
-      <workItem from="1558781487582" duration="2562000" />
+      <workItem from="1558781487582" duration="5424000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8534000" />
+    <option name="totallyTimeSpent" value="11396000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -311,18 +306,18 @@
     <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49892008" visible="true" weight="0.25506938" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49892008" visible="true" weight="0.25506938" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5010799" side_tool="true" weight="0.2497332" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32937366" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39956802" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="NuGet" order="7" weight="0.32937366" />
-      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" weight="0.32937366" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
@@ -351,35 +346,23 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/EffectiveEmployee/Startup.cs</url>
+          <line>30</line>
+          <properties documentPath="$PROJECT_DIR$/EffectiveEmployee/Startup.cs" initialLine="30">
+            <startOffsets>
+              <option value="1023" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1095" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/EffectiveEmployee/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-          <folding>
-            <marker date="1558369585009" expanded="false" signature="6:255" ph="..." />
-            <marker date="1558369585009" expanded="true" signature="284:611" ph="{...}" />
-            <marker date="1558369585009" expanded="true" signature="311:609" ph="{...}" />
-            <marker date="1558369585009" expanded="true" signature="364:438" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EffectiveEmployee/Models/Employee.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-          <folding>
-            <marker date="1558779270633" expanded="true" signature="69:476" ph="{...}" />
-            <marker date="1558779270633" expanded="true" signature="97:474" ph="{...}" />
-            <marker date="1558779270633" expanded="true" signature="129:196" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/EffectiveEmployee/Models/Project.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -390,47 +373,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EffectiveEmployee/Models/DataContext.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="1" />
-          <folding>
-            <marker date="1558779493357" expanded="true" signature="72:336" ph="{...}" />
-            <marker date="1558779493357" expanded="true" signature="115:334" ph="{...}" />
-            <marker date="1558779493357" expanded="true" signature="308:328" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EffectiveEmployee/Startup.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-          <folding>
-            <marker date="1558369585053" expanded="true" signature="6:249" ph="..." />
-            <marker date="1558369585053" expanded="true" signature="278:1049" ph="{...}" />
-            <marker date="1558369585053" expanded="true" signature="305:1047" ph="{...}" />
-            <marker date="1558369585053" expanded="true" signature="320:535" ph="/* This method gets called by the runtime. Use this method to add services to the container. ... */" />
-            <marker date="1558369585053" expanded="true" signature="602:622" ph="{...}" />
-            <marker date="1558369585053" expanded="true" signature="810:1041" ph="{...}" />
-            <marker date="1558369585053" expanded="true" signature="857:934" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EffectiveEmployee/appsettings.Development.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EffectiveEmployee/appsettings.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EffectiveEmployee/app.config">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/EffectiveEmployee/Views/Main/Employee.cshtml">
       <provider selected="true" editor-type-id="text-editor">
@@ -443,6 +385,31 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="39" selection-start-column="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EffectiveEmployee/Models/DataContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <marker date="1558779493357" expanded="true" signature="72:336" ph="{...}" />
+            <marker date="1558779493357" expanded="true" signature="115:334" ph="{...}" />
+            <marker date="1558779493357" expanded="true" signature="308:328" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EffectiveEmployee/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding>
+            <marker date="1558369585009" expanded="false" signature="6:255" ph="..." />
+            <marker date="1558369585009" expanded="true" signature="284:611" ph="{...}" />
+            <marker date="1558369585009" expanded="true" signature="311:609" ph="{...}" />
+            <marker date="1558369585009" expanded="true" signature="364:438" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -465,10 +432,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/EffectiveEmployee/wwwroot/css/Site.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="844">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EffectiveEmployee/Models/Employee.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+          <folding>
+            <marker date="1558788972644" expanded="true" signature="69:526" ph="{...}" />
+            <marker date="1558788972644" expanded="true" signature="97:524" ph="{...}" />
+            <marker date="1558788972644" expanded="true" signature="129:196" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/127E718A-C42E-4542-A71B-54CEC3EF156B/18/1e86c897/WebHostBuilder.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="146" column="8" selection-start-line="146" selection-start-column="8" selection-end-line="146" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/EffectiveEmployee/Views/Main/Index.cshtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="73" selection-start-column="73" selection-end-column="73" />
+        <state relative-caret-position="300">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EffectiveEmployee/app.config">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EffectiveEmployee/appsettings.Development.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EffectiveEmployee/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EffectiveEmployee/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="30" column="33" lean-forward="true" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="66" />
+          <folding>
+            <marker date="1558789464258" expanded="true" signature="6:360" ph="..." />
+            <marker date="1558789464258" expanded="true" signature="389:1777" ph="{...}" />
+            <marker date="1558789464258" expanded="true" signature="416:1775" ph="{...}" />
+            <marker date="1558789464258" expanded="true" signature="475:538" ph="{...}" />
+            <marker date="1558789464258" expanded="true" signature="611:826" ph="/* This method gets called by the runtime. Use this method to add services to the container. ... */" />
+            <marker date="1558789464258" expanded="true" signature="893:1217" ph="{...}" />
+            <marker date="1558789464258" expanded="true" signature="1005:1205" ph="{...}" />
+            <marker date="1558789464258" expanded="true" signature="1405:1769" ph="{...}" />
+            <marker date="1558789464258" expanded="true" signature="1452:1529" ph="{...}" />
+            <marker date="1558789464258" expanded="true" signature="1576:1722" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,2 +1,28 @@
 @model System.Collections.Generic.List<EffectiveEmployee.Models.Employee>
 
+<html>
+<head>
+    <title>Employees</title>
+    <link rel="stylesheet" type="text/css" href="~/css/Site.css" />
+</head>
+<body>
+<h3>Работники</h3>
+<h5>Кликните по строке чтобы открыть проекты</h5>
+<div>
+    <table class="main_table">
+        <thead>
+        <tr>
+            <th>Фамилия</th>
+            <th>Имя</th>
+            <th>Отчество</th>
+            <th>Город</th>
+            <th>Действия</th>
+        </tr>
+        </thead>
+    </table>
+    <br/>
+    <button class="main_button" onclick="document.location = '@Url.Action("Employee", "Main", new {id = 0})'">Добавить работника</button>
+    <button class="main_button" onclick="document.location = '@Url.Action("Project")'">Добавить проект</button>
+</div>
+</body>
+</html>
