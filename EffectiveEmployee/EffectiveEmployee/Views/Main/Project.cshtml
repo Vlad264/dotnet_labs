@@ -1,2 +1,37 @@
 @model EffectiveEmployee.Models.Project
 
+<html>
+<head>
+    <title>Project</title>
+    <link rel="stylesheet" type="text/css" href="~/css/Site.css" />
+</head>
+<body>
+<h3>Добавить проект</h3>
+@using (Html.BeginForm("UpdateProject", "Main", FormMethod.Post))
+{
+    <div class="form">
+        @Html.HiddenFor(model => model.Id)
+        <div class="input_group">
+            @Html.LabelFor(model => model.Name, "Название проекта")
+            <div class="input_field">
+                @Html.EditorFor(model => model.Name)
+            </div>
+        </div>
+        <div class="input_group">
+            @Html.LabelFor(model => model.EmployeeId, "Работник")            
+            <div class="input_field">
+                @Html.DropDownListFor(model => model.EmployeeId, ViewBag.Employees as SelectList)
+            </div>
+        </div>
+        <div class="input_group">
+            @Html.LabelFor(model => model.Premium, "Премия")
+            <div class="input_field">
+                @Html.EditorFor(model => model.Premium)
+            </div>
+        </div>
+        <input class="main_button" type="submit" value="Сохранить"/>
+    </div>
+}
+<button class="main_button" onclick="document.location = '@Url.Action("Index")'">Назад</button>
+</body>
+</html>

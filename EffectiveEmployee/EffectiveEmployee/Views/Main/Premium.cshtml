@@ -1,0 +1,37 @@
+@model System.Collections.Generic.List<EffectiveEmployee.Models.Premium>
+
+<html>
+<head>
+    <title>Awards</title>
+    <link rel="stylesheet" type="text/css" href="~/css/Site.css" />
+</head>
+<body>
+<h3>Премии</h3>
+<div>
+    <table class="main_table">
+        <thead>
+        <tr>
+            <th>ФИО</th>
+            <th>Премия</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(model => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => item.Value)
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+    <br/>
+    <button class="main_button" onclick="document.location = '@Url.Action("Index")'">Назад</button>
+</div>
+</body>
+</html>
+

@@ -17,6 +17,7 @@
         <e p="Models" t="Include">
           <e p="DataContext.cs" t="Include" />
           <e p="Employee.cs" t="Include" />
+          <e p="Premium.cs" t="Include" />
           <e p="Project.cs" t="Include" />
         </e>
         <e p="Program.cs" t="Include" />
@@ -28,7 +29,9 @@
           <e p="Main" t="Include">
             <e p="Employee.cshtml" t="Include" />
             <e p="Index.cshtml" t="Include" />
+            <e p="Premium.cshtml" t="Include" />
             <e p="Project.cshtml" t="Include" />
+            <e p="Projects.cshtml" t="Include" />
           </e>
         </e>
         <e p="app.config" t="Include" />

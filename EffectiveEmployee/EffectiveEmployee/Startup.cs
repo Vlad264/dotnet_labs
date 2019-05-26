@@ -29,6 +29,7 @@ namespace EffectiveEmployee
             services.AddDbContext<DataContext>(options =>
             {
                 options.UseNpgsql(@"Server=localhost;Database=usersdb;Username=dotnet;Password=sw0909sw");
+                options.UseLazyLoadingProxies();
             });
         }
 

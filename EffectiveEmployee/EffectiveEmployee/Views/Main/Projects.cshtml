@@ -1,0 +1,40 @@
+@model System.Collections.Generic.List<EffectiveEmployee.Models.Project>
+
+<html>
+<head>
+    <title>Projects</title>
+    <link rel="stylesheet" type="text/css" href="~/css/Site.css" />
+</head>
+<body>
+<h3>Проекты </h3>
+<h5>@ViewBag.EmployeeInfo</h5>
+<div>
+    <table class="main_table">
+        <thead>
+        <th>Название</th>
+        <th>Премия</th>
+        <th>Действия</th>
+        </thead>
+        <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(model => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => item.Premium)
+                </td>
+                <td>
+                    <a href="@Url.Action("Project", "Main", new {id = item.Id})">Редактировать</a>
+                    <a href="@Url.Action("RemoveProject", "Main", new {id = item.Id})">Удалить</a>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+</div>
+<br/>
+<button class="main_button" onclick="document.location = '@Url.Action("Index")'">Назад</button>
+</body>
+</html>

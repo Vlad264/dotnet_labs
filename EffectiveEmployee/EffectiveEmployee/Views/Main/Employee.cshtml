@@ -1,2 +1,45 @@
 @model EffectiveEmployee.Models.Employee
 
+<html>
+<head>
+    <title>Employee</title>
+    <link rel="stylesheet" type="text/css" href="~/css/Site.css" />
+</head>
+<body>
+<h3>Добавить работника</h3>
+@using (Html.BeginForm("UpdateEmployee", "Main", FormMethod.Post))
+{
+    <div class="form">
+        @Html.HiddenFor(model => model.Id)
+        <div class="input_group">
+            @Html.LabelFor(model => model.Surname, "Фамилия")
+            <div class="input_field">
+                @Html.EditorFor(model => model.Surname)
+            </div>
+        </div>
+        <div class="input_group">
+            @Html.LabelFor(model => model.Name, "Имя")
+            <div class="input_field">
+                @Html.EditorFor(model => model.Name)
+            </div>
+        </div>
+        <div class="input_group">
+            @Html.LabelFor(model => model.Patronymic, "Отчество")
+            <div class="input_field">
+                @Html.EditorFor(model => model.Patronymic)
+            </div>
+        </div>
+        <div class="input_group">
+            @Html.LabelFor(model => model.City, "Город")
+            <div class="input_field">
+                @Html.EditorFor(model => model.City)
+            </div>
+        </div>
+        <input class="main_button" type="submit" value="Сохранить"/>
+    </div>
+}
+<button class="main_button" onclick="document.location = '@Url.Action("Index")'">Назад</button>
+
+</body>
+</html>
+

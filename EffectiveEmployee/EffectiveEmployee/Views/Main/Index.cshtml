@@ -19,8 +19,34 @@
             <th>Действия</th>
         </tr>
         </thead>
+        <tbody>
+        @foreach (var item in Model)
+        {
+            <tr onclick="document.location = '@Url.Action("Projects", "Main", new {id = item.Id})'">
+                <td>
+                    @Html.DisplayFor(model => item.Surname)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => item.Patronymic)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => item.City)
+                </td>
+                <td>
+                    <a href="@Url.Action("Employee", "Main", new {id = item.Id})">Редактировать</a>
+                    <a href="@Url.Action("RemoveEmployee", "Main", new {id = item.Id})">Удалить</a>
+                </td>
+            </tr>
+        }
+        </tbody>
     </table>
     <br/>
+    <button class="main_button" onclick="document.location = '@Url.Action("Employee", "Main", new {id = 0})'">Добавить работника</button>
+    <button class="main_button" onclick="document.location = '@Url.Action("Project")'">Добавить проект</button>
+    <button class="main_button" onclick="document.location = '@Url.Action("Premium")'">Посмотреть премии</button>
 </div>
 </body>
 </html>
