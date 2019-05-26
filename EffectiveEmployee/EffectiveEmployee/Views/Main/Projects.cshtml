@@ -13,7 +13,8 @@
         <thead>
         <th>Название</th>
         <th>Премия</th>
-        <th>Действия</th>
+        <th></th>
+        <th></th>
         </thead>
         <tbody>
         @foreach (var item in Model)
@@ -27,6 +28,8 @@
                 </td>
                 <td>
                     <a href="@Url.Action("Project", "Main", new {id = item.Id})">Редактировать</a>
+                </td>
+                <td>
                     <a href="@Url.Action("RemoveProject", "Main", new {id = item.Id})">Удалить</a>
                 </td>
             </tr>

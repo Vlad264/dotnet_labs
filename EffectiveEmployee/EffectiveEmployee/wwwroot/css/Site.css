@@ -1,3 +1,7 @@
+:root {
+    --main-color: #4a49ff;
+}
+
 h3 {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 }
@@ -25,12 +29,12 @@ h5 {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: #4CAF50;
+    background-color: var(--main-color);
     color: white;
 }
 
 .main_button {
-    background-color: #4CAF50; /* Green */
+    background-color: var(--main-color);
     border: none;
     color: white;
     padding: 5px 15px;
@@ -42,7 +46,7 @@ h5 {
 
 .form {
     margin-bottom: 10px;
-    width: 70%;
+    width: 100%;
     display: inline-block;
 }
 
@@ -72,7 +76,7 @@ dr {
 }
 
 a {
-    color: #4CAF50;
+    color: var(--main-color);
 }
 
 a:link {

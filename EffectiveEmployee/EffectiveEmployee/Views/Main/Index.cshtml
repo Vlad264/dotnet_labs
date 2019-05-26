@@ -3,11 +3,10 @@
 <html>
 <head>
     <title>Employees</title>
-    <link rel="stylesheet" type="text/css" href="~/css/Site.css" />
+    <link rel="stylesheet" type="text/css" href="~/css/Site.css"/>
 </head>
 <body>
 <h3>Работники</h3>
-<h5>Кликните по строке чтобы открыть проекты</h5>
 <div>
     <table class="main_table">
         <thead>
@@ -16,7 +15,8 @@
             <th>Имя</th>
             <th>Отчество</th>
             <th>Город</th>
-            <th>Действия</th>
+            <th></th>
+            <th></th>
         </tr>
         </thead>
         <tbody>
@@ -37,6 +37,8 @@
                 </td>
                 <td>
                     <a href="@Url.Action("Employee", "Main", new {id = item.Id})">Редактировать</a>
+                </td>
+                <td>
                     <a href="@Url.Action("RemoveEmployee", "Main", new {id = item.Id})">Удалить</a>
                 </td>
             </tr>
