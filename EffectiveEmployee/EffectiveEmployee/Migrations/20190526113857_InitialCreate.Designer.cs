@@ -9,7 +9,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace EffectiveEmployee.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20190526092056_InitialCreate")]
+    [Migration("20190526113857_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

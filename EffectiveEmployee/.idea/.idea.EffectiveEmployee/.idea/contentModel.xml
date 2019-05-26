@@ -10,8 +10,8 @@
         </e>
         <e p="EffectiveEmployee.csproj" t="IncludeRecursive" />
         <e p="Migrations" t="Include">
-          <e p="20190526092056_InitialCreate.Designer.cs" t="Include" />
-          <e p="20190526092056_InitialCreate.cs" t="Include" />
+          <e p="20190526113857_InitialCreate.Designer.cs" t="Include" />
+          <e p="20190526113857_InitialCreate.cs" t="Include" />
           <e p="DataContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="Models" t="Include">

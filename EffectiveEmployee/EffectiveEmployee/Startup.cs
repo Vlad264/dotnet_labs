@@ -28,9 +28,7 @@ namespace EffectiveEmployee
             services.AddMvc();
             services.AddDbContext<DataContext>(options =>
             {
-                var connection = Configuration.GetConnectionString("DefaultConnection");
-                options.UseNpgsql(connection);
-                options.UseLazyLoadingProxies();
+                options.UseNpgsql(@"Server=localhost;Database=usersdb;Username=dotnet;Password=sw0909sw");
             });
         }
 
