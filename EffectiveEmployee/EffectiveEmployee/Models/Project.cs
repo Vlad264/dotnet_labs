@@ -10,6 +10,6 @@ namespace EffectiveEmployee.Models
         
         public int Premium { get; set; }
         
-        public Employee Employee { get; set; }
+        public virtual Employee Employee { get; set; }
     }
 }

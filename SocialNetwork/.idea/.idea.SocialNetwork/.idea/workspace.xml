@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5dfb7a35-2c25-4c30-b9c5-72ed9c8ce088" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/SocialNetwork/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SocialNetwork/Program.cs" afterDir="false" />
-    </list>
+    <list default="true" id="5dfb7a35-2c25-4c30-b9c5-72ed9c8ce088" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,6 +112,7 @@
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../EffectiveEmployee/EffectiveEmployee.sln" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -159,12 +158,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558794470657</updated>
-      <workItem from="1558794472342" duration="5990000" />
+      <workItem from="1558794472342" duration="6725000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5990000" />
+    <option name="totallyTimeSpent" value="6725000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">

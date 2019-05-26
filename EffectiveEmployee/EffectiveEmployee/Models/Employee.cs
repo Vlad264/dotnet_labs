@@ -19,6 +19,6 @@ namespace EffectiveEmployee.Models
         
         public string City { get; set; }
         
-        public ICollection<Project> Projects { get; set; }
+        public virtual ICollection<Project> Projects { get; set; }
     }
 }

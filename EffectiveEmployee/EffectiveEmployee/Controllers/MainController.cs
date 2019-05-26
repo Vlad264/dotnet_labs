@@ -15,7 +15,10 @@ namespace EffectiveEmployee.Controllers
         }
 
         [Route("")]
-        public IActionResult Index() => View(context.Employees.ToList());
+        public IActionResult Index()
+        {
+            return View(context.Employees.ToList());
+        }
 
         [Route("Employee")]
         public IActionResult Employee(int id)
