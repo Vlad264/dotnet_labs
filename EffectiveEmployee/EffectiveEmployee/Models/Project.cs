@@ -10,6 +10,8 @@ namespace EffectiveEmployee.Models
         
         public int Premium { get; set; }
         
+        public string Deadline { get; set; }
+        
         public virtual Employee Employee { get; set; }
     }
 }

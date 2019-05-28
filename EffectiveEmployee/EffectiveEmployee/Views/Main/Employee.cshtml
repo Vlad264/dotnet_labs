@@ -35,6 +35,12 @@
                 @Html.EditorFor(model => model.City)
             </div>
         </div>
+        <div class="input_group">
+                    @Html.LabelFor(model => model.Education, "Образование")
+                    <div class="input_field">
+                        @Html.EditorFor(model => model.Education)
+                    </div>
+                </div>
         <input class="main_button" type="submit" value="Сохранить"/>
         <input class="main_button" type="button" onclick="document.location = '@Url.Action("Index")'" value="Назад"/>
     </div>

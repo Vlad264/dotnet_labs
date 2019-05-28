@@ -29,6 +29,12 @@
                 @Html.EditorFor(model => model.Premium)
             </div>
         </div>
+        <div class="input_group">
+                    @Html.LabelFor(model => model.Deadline, "Дедлайн")
+                    <div class="input_field">
+                        @Html.EditorFor(model => model.Deadline)
+                    </div>
+                </div>
         <input class="main_button" type="submit" value="Сохранить"/>
         <input class="main_button" type="button" onclick="document.location = '@Url.Action("Index")'" value="Назад"/>
         <!--button class="main_button" onclick="document.location = '@Url.Action("Index")'">Назад</-button-->

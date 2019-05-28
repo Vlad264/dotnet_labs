@@ -15,6 +15,7 @@
             <th>Имя</th>
             <th>Отчество</th>
             <th>Город</th>
+            <th>Образование</th>
             <th></th>
             <th></th>
         </tr>
@@ -35,6 +36,9 @@
                 <td>
                     @Html.DisplayFor(model => item.City)
                 </td>
+                <td>
+                    @Html.DisplayFor(model => item.Education)
+                    </td>
                 <td>
                     <a href="@Url.Action("Employee", "Main", new {id = item.Id})">Редактировать</a>
                 </td>
