@@ -25,6 +25,8 @@ namespace EffectiveEmployee.Migrations
 
                     b.Property<string>("City");
 
+                    b.Property<string>("Education");
+
                     b.Property<string>("Name");
 
                     b.Property<string>("Patronymic");
@@ -40,6 +42,8 @@ namespace EffectiveEmployee.Migrations
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
+
+                    b.Property<string>("Deadline");
 
                     b.Property<int>("EmployeeId");
 
